@@ -1,0 +1,100 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all 0.1s;
+    position: relative;
+    font-size: 1.6rem;
+
+    // Change for the <button> element
+    border: none;
+    cursor: pointer;
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+
+    &::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+    }
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
+  }
+
+  &--secondary {
+    background-color: $color-primary;
+    color: $color-black;
+
+    &::after {
+      background-color: $color-primary;
+    }
+  }
+
+  &--tertiary {
+    background-color: $color-terracotta-dark;
+    color: $color-black;
+
+    &::after {
+      background-color: $color-terracotta-light;
+    }
+  }
+
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &::after {
+      background-color: $color-primary;
+    }
+  }
+
+  &--outline:link,
+  &--outline:visited,
+  &--outline:active,
+  &--outline:focus {
+    font-size: 1.4rem;
+    color: $color-primary-light-2;
+    box-shadow: inset 0 0 0 2px $color-primary;
+    transition: all 0.2s;
+    z-index: 99;
+
+    &::after {
+      box-shadow: inset 0 0 4px rgba($color-primary, 1);
+      z-index: 99;
+    }
+
+    &:hover {
+      transform: translateY(-6px);
+      box-shadow: inset 0 0 0 4px $color-primary,
+        0 4rem 8rem rgba($color-black, 0.2);
+      z-index: 99;
+
+      &::after {
+        transform: scaleX(1.6) scaleY(1.9);
+        opacity: 0;
+        z-index: 99;
+      }
+    }
+  }
+
+  &--outline-big:link,
+  &--outline-big:visited,
+  &--outline-big:active,
+  &--outline-big:focus {
+    font-size: 3rem;
+    font-family: "Godber-regular";
+    letter-spacing: 0.6rem;
+  }
+}

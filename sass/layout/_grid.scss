@@ -1,0 +1,33 @@
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.grid--6-cols {
+  display: grid;
+  row-gap: 9.6rem;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: 1fr 1fr 1fr;
+}

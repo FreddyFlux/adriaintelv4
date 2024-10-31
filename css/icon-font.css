@@ -1,0 +1,351 @@
+/*--------------------------------
+
+Nucleo icon font
+Generated using nucleoapp.com
+
+-------------------------------- */
+
+@font-face {
+  font-family: "Nucleo";
+  src: url("../assets/font-svgs/fonts/Nucleo.eot");
+  src: url("../assets/font-svgs/fonts/Nucleo.eot") format("embedded-opentype"),
+    url("../assets/font-svgs/fonts/Nucleo.woff2") format("woff2"),
+    url("../assets/font-svgs/fonts/Nucleo.woff") format("woff"),
+    url("../assets/font-svgs/fonts/Nucleo.ttf") format("truetype"),
+    url("../assets/font-svgs/fonts/Nucleo.svg") format("svg");
+}
+
+/* base class */
+.icon {
+  display: inline-block;
+  font: normal normal normal 1em/1 "Nucleo";
+  color: inherit;
+  flex-shrink: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* size examples - relative units */
+.icon-sm {
+  font-size: 0.8em;
+}
+
+.icon-lg {
+  font-size: 4rem;
+}
+
+/* Services-ICons */
+.icon-services {
+  color: #051b12;
+  font-size: 8rem;
+  margin-bottom: 2rem;
+}
+
+/* size examples - absolute units */
+.icon-16 {
+  font-size: 16px;
+}
+
+.icon-32 {
+  font-size: 32px;
+}
+
+/* rotate the icon infinitely */
+.icon-is-spinning {
+  animation: icon-spin 1s infinite linear;
+}
+
+@keyframes icon-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* transform */
+.icon-rotate-90 {
+  transform: rotate(90deg);
+}
+
+.icon-rotate-180 {
+  transform: rotate(180deg);
+}
+
+.icon-rotate-270 {
+  transform: rotate(270deg);
+}
+
+.icon-flip-y {
+  transform: scaleY(-1);
+}
+
+.icon-flip-x {
+  transform: scaleX(-1);
+}
+
+/* icons */
+.icon-001-target::before {
+  content: "\ea01";
+}
+
+.icon-002-profile::before {
+  content: "\ea02";
+}
+
+.icon-003-clipboard::before {
+  content: "\ea03";
+}
+
+.icon-004-insurance::before {
+  content: "\ea04";
+}
+
+.icon-005-discussion::before {
+  content: "\ea05";
+}
+
+.icon-006-presentation::before {
+  content: "\ea06";
+}
+
+.icon-007-development::before {
+  content: "\ea07";
+}
+
+.icon-008-trophy::before {
+  content: "\ea08";
+}
+
+.icon-009-briefcase::before {
+  content: "\ea09";
+}
+
+.icon-010-worldwide::before {
+  content: "\ea0a";
+}
+
+.icon-011-star::before {
+  content: "\ea0b";
+}
+
+.icon-012-megaphone::before {
+  content: "\ea0c";
+}
+
+.icon-013-structure::before {
+  content: "\ea0d";
+}
+
+.icon-014-shop::before {
+  content: "\ea0e";
+}
+
+.icon-015-compass::before {
+  content: "\ea0f";
+}
+
+.icon-016-chess-piece::before {
+  content: "\ea10";
+}
+
+.icon-017-growth::before {
+  content: "\ea11";
+}
+
+.icon-018-measure::before {
+  content: "\ea12";
+}
+
+.icon-019-puzzle::before {
+  content: "\ea13";
+}
+
+.icon-020-tie::before {
+  content: "\ea14";
+}
+
+.icon-021-stopwatch::before {
+  content: "\ea15";
+}
+
+.icon-022-earning::before {
+  content: "\ea16";
+}
+
+.icon-023-handshake::before {
+  content: "\ea17";
+}
+
+.icon-024-global::before {
+  content: "\ea18";
+}
+
+.icon-025-maze::before {
+  content: "\ea19";
+}
+
+.icon-026-idea::before {
+  content: "\ea1a";
+}
+
+.icon-027-binocular::before {
+  content: "\ea1b";
+}
+
+.icon-028-monitor::before {
+  content: "\ea1c";
+}
+
+.icon-029-red-flag::before {
+  content: "\ea1d";
+}
+
+.icon-030-contract::before {
+  content: "\ea1e";
+}
+
+.icon-031-team-work::before {
+  content: "\ea1f";
+}
+
+.icon-032-chart::before {
+  content: "\ea20";
+}
+
+.icon-033-investment::before {
+  content: "\ea21";
+}
+
+.icon-034-rising::before {
+  content: "\ea22";
+}
+
+.icon-035-development::before {
+  content: "\ea23";
+}
+
+.icon-036-losses::before {
+  content: "\ea24";
+}
+
+.icon-037-pie-chart::before {
+  content: "\ea25";
+}
+
+.icon-038-shield::before {
+  content: "\ea26";
+}
+
+.icon-039-paper-plane::before {
+  content: "\ea27";
+}
+
+.icon-040-startup::before {
+  content: "\ea28";
+}
+
+.icon-041-award::before {
+  content: "\ea29";
+}
+
+.icon-042-calculator::before {
+  content: "\ea2a";
+}
+
+.icon-043-locations::before {
+  content: "\ea2b";
+}
+
+.icon-044-analysis::before {
+  content: "\ea2c";
+}
+
+.icon-045-clock::before {
+  content: "\ea2d";
+}
+
+.icon-046-book::before {
+  content: "\ea2e";
+}
+
+.icon-047-loupe::before {
+  content: "\ea2f";
+}
+
+.icon-048-idea::before {
+  content: "\ea30";
+}
+
+.icon-049-paperwork::before {
+  content: "\ea31";
+}
+
+.icon-050-ladder::before {
+  content: "\ea32";
+}
+
+.icon-Asset-1::before {
+  content: "\ea33";
+}
+
+.icon-Asset-10::before {
+  content: "\ea34";
+}
+
+.icon-Asset-11::before {
+  content: "\ea35";
+}
+
+.icon-Asset-12::before {
+  content: "\ea36";
+}
+
+.icon-Asset-13::before {
+  content: "\ea37";
+}
+
+.icon-Asset-15::before {
+  content: "\ea38";
+}
+
+.icon-Asset-16::before {
+  content: "\ea39";
+}
+
+.icon-Asset-17::before {
+  content: "\ea3a";
+}
+
+.icon-Asset-2::before {
+  content: "\ea3b";
+}
+
+.icon-Asset-3::before {
+  content: "\ea3c";
+}
+
+.icon-Asset-4::before {
+  content: "\ea3d";
+}
+
+.icon-Asset-5::before {
+  content: "\ea3e";
+}
+
+.icon-Asset-6::before {
+  content: "\ea3f";
+}
+
+.icon-Asset-7::before {
+  content: "\ea40";
+}
+
+.icon-Asset-8::before {
+  content: "\ea41";
+}
+
+.icon-Asset-9::before {
+  content: "\ea42";
+}

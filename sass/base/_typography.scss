@@ -1,0 +1,61 @@
+.heading-primary {
+  font-family: "Godber-Regular";
+  letter-spacing: 0.9rem;
+
+  &__sub {
+    font-family: "Godber-Regular";
+    letter-spacing: 0.9rem;
+    color: $color-primary;
+  }
+}
+
+.heading-secondary {
+  font-family: "Godber-Regular";
+  font-size: 10rem;
+  letter-spacing: 0.9rem;
+  background: linear-gradient(
+    to right,
+    $color-primary-light-2,
+    $color-primary-dark-1
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  &--sub {
+    font-family: "Godber-Regular";
+    font-size: 4rem;
+    letter-spacing: 0.9rem;
+    background: linear-gradient(
+      to left,
+      $color-primary-light-2,
+      $color-primary-dark-1
+    );
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+}
+
+.heading-tertiary {
+  font-family: "Godber-Regular";
+  font-size: 2.8rem;
+  line-height: 1.25;
+  letter-spacing: 0.9rem;
+  color: $color-more-light-1;
+
+  &--gradient {
+    background: linear-gradient(
+      to left,
+      $color-primary-light-2,
+      $color-primary-dark-1
+    );
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+}
+
+.feature-box__text {
+  font-size: 1.8rem;
+  color: $color-background;
+}

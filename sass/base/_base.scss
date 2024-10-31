@@ -1,0 +1,61 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; // 1rem = 10px
+  font-family: "Raleway";
+
+  @include respond(tab-land) {
+    font-size: 56.25%; // 1 rem = 9px
+  }
+
+  @include respond(tab-port) {
+    font-size: 50%; // 1 rem = 8px
+  }
+
+  @include respond(big-desktop) {
+    font-size: 75%; // 1rem = 12px
+  }
+}
+
+body {
+  box-sizing: border-box;
+  // background: linear-gradient(
+  //   to right bottom,
+  //   $color-kamen-light-1,
+  //   $color-kamen-dark-1
+  // );
+  color: $color-kamen-light-1;
+}
+
+// FONTS
+@font-face {
+  font-family: "Prelude-Regular";
+  src: url(../../assets/fonts/Prelude-Regular.otf) format("otf");
+}
+
+@font-face {
+  font-family: "Krella";
+  src: url(../../assets/fonts/Krella.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Godber-Regular";
+  src: url(../../assets//fonts/Godber-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "superline-outlineitalic";
+  src: url(../../assets/fonts/superline-outlineitalic-webfont.woff)
+    format("woff");
+}
+
+@font-face {
+  font-family: "superline-regular";
+  src: url(../../assets/fonts/superline-regular-webfont.woff) format("woff");
+}
