@@ -10,26 +10,20 @@
 }
 
 .heading-secondary {
-  font-family: "Godber-Regular";
-  font-size: 10rem;
+  font-family: "Prelude";
+  font-size: 8rem;
   letter-spacing: 0.9rem;
   background: linear-gradient(
     to right,
-    $color-primary-light-2,
-    $color-primary-dark-1
+    $color-terracotta-light,
+    $color-terracotta-dark
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 
   &--sub {
-    font-family: "Godber-Regular";
-    font-size: 4rem;
+    font-size: 3rem;
     letter-spacing: 0.9rem;
-    background: linear-gradient(
-      to left,
-      $color-primary-light-2,
-      $color-primary-dark-1
-    );
 
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -40,8 +34,12 @@
   font-family: "Godber-Regular";
   font-size: 2.8rem;
   line-height: 1.25;
-  letter-spacing: 0.9rem;
+  letter-spacing: 0.6rem;
   color: $color-more-light-1;
+
+  &--sub {
+    font-size: 1.3rem;
+  }
 
   &--gradient {
     background: linear-gradient(
@@ -56,6 +54,7 @@
 }
 
 .feature-box__text {
+  font-family: sans-serif;
   font-size: 1.8rem;
-  color: $color-background;
+  color: $color-black-dark-2;
 }

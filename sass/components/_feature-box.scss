@@ -15,7 +15,7 @@
   width: 100%;
   display: flex;
 
-  border-bottom: 1px solid rgba($color-more-light-1, 1);
+  border-bottom: 1px solid rgba($color-terracotta-dark, 1);
 
   text-align: right;
 
@@ -47,9 +47,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba($color-primary-dark-1, 0.97);
-  height: 30rem;
-  width: 30rem;
+  background-color: rgba($color-more-dark-2, 1);
+  height: 32rem;
+  width: 32rem;
   padding: 5rem;
   text-align: center;
   border-radius: 50%;
@@ -74,15 +74,7 @@
   }
 
   &__icon {
-    display: inline-block;
-    // background-image: linear-gradient(
-    //   to right,
-    //   $color-primary-light-1,
-    //   $color-primary-dark-1
-    // );
-    -webkit-background-clip: text;
-    color: transparent;
-
+    margin-top: -2.5vh;
     @include respond(tab-port) {
       margin-bottom: 0;
     }

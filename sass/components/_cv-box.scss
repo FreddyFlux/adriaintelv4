@@ -1,0 +1,21 @@
+.cv-box {
+  width: 100%;
+  height: 100%;
+  border-left: 1px solid $color-terracotta-dark;
+  border-right: 1px solid $color-terracotta-dark;
+  border-radius: 20px;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 2rem;
+
+  & h3 {
+    font-size: 1.9rem;
+  }
+
+  & span {
+    text-align: right;
+    margin-left: 5rem;
+  }
+}

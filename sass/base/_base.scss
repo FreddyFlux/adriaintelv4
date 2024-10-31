@@ -40,6 +40,11 @@ body {
 }
 
 @font-face {
+  font-family: "Riley";
+  src: url(../../assets/fonts/Riley.woff2) format("otf");
+}
+
+@font-face {
   font-family: "Krella";
   src: url(../../assets/fonts/Krella.woff) format("woff");
 }
@@ -47,15 +52,4 @@ body {
 @font-face {
   font-family: "Godber-Regular";
   src: url(../../assets//fonts/Godber-Regular.woff) format("woff");
-}
-
-@font-face {
-  font-family: "superline-outlineitalic";
-  src: url(../../assets/fonts/superline-outlineitalic-webfont.woff)
-    format("woff");
-}
-
-@font-face {
-  font-family: "superline-regular";
-  src: url(../../assets/fonts/superline-regular-webfont.woff) format("woff");
 }
